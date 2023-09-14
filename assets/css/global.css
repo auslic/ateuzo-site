@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700&display=swap');
+@import url(./cabecalho.css);
+@import url(./inicio.css);
+@import url(./servicos.css);
+
+:root {
+    --fonte-principal: 'Poppins', sans-serif;
+    --cor-principal: #0046AC;
+    --cor-secundaria: #2594D9;
+    --cor-terciaria: #F2F2F2;
+    --cor-branca: #FFF;
+}
+
+body {
+    font-family: var(--fonte-principal);
+}
+
+

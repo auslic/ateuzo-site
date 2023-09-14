@@ -1,0 +1,55 @@
+.inicio {
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    background-image: url(../img/inicio-fundo.jpg);
+    background-size: cover;
+}
+
+.inicio__box {
+    padding: 1rem 32rem 1rem 5rem;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    /* height: 80.5vh; */
+    /* background-image: linear-gradient(to bottom, rgba(255,0,0,0), rgba(0,0,0)); */
+}
+
+.inicio__box_titulo {
+    font-weight: 700;
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.inicio__box_texto {
+    font-weight: 300;
+    font-size: 2.5rem;
+    line-height: 2.4rem;
+    margin-bottom: 3rem;
+}
+
+.inicio__box_contato {
+    padding: 1rem 1.5rem;
+    width: 70%;
+    align-self: center;
+
+    border: 2px solid var(--cor-branca);
+    border-radius: 2rem;    
+
+    background-color: var(--cor-principal);
+
+    font-size: 2rem;
+    text-align: center;
+    text-decoration: none;
+    color: var(--cor-branca);
+
+    transition: 0.5s;
+}
+
+.inicio__box_contato:hover {
+    width: 75%;
+    font-size: 2.2rem;
+    font-weight: 500;
+}
