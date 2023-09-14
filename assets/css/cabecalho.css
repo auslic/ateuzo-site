@@ -21,13 +21,15 @@
     border-radius: 2rem;
     padding: 1rem 1.5rem;
     margin-left: 2rem;
+    text-decoration: none;
 
+    color: var(--cor-preta);
     transition: 0.5s;
 }
 
 .cabecalho__links_list_item:hover {
     transition: 0.5s;
-    border-color: var(--cor-branca);
+    border-color: var(--cor-principal);
     background-color: var(--cor-principal);
     color: var(--cor-branca);
 }

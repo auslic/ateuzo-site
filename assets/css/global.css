@@ -2,6 +2,7 @@
 @import url(./cabecalho.css);
 @import url(./inicio.css);
 @import url(./servicos.css);
+@import url(./habilidades.css);
 
 :root {
     --fonte-principal: 'Poppins', sans-serif;
@@ -9,6 +10,7 @@
     --cor-secundaria: #2594D9;
     --cor-terciaria: #F2F2F2;
     --cor-branca: #FFF;
+    --cor-preta: #000;
 }
 
 body {
