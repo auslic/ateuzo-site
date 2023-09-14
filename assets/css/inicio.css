@@ -21,6 +21,7 @@
     font-weight: 700;
     font-size: 4rem;
     margin-bottom: 1rem;
+    color: var(--cor-principal);
 }
 
 .inicio__box_texto {
