@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/global.css">
 
+    <!-- Swiper.js -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+
     <title>Ateuzo Group</title>
 </head>
 <body>
@@ -39,7 +42,7 @@
             <h2 class="servicos__titulo_nome">Nossos Serviços</h2>
         </div>
         
-        <div class="servicos__box">
+        <!-- <div class="servicos__box">
             <div class="servicos__container infra">
                 <h3 class="servicos__container_titulo">Infraestrutura</h3>
                 <p class="servicos__container_texto">Consultorias, configurações, upgrades, instalações e resoluções de problemas em servidores diversos.</p>
@@ -57,6 +60,36 @@
                 <h3 class="servicos__container_titulo">Segurança da Informação</h3>
                 <p class="servicos__container_texto">Trabalhe com documentos em nuvem e tenha acesso completo de qualquer lugar do planeta.</p>
             </div>
+        </div> -->
+    
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+                <img src="./assets/img/servicos-infra.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./assets/img/servicos-cloud.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./assets/img/servicos-home.jpg" alt="">
+            </div>
+            <div class="swiper-slide" alt="">
+                <img src="./assets/img/servicos-segurança.jpg" alt="">
+            </div>
+            ...
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+        
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
         </div>
     </section>
 
@@ -73,5 +106,17 @@
 
         </div>
     </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <script>
+        const swiper = new Swiper('.swiper', {
+            // speed: 400,
+            spaceBetween: 10,
+            slidesPerView: 1,
+        });
+    </script>
+
+    <!-- <script src="./assets/js/swiper.js"></script> -->
 </body>
 </html>

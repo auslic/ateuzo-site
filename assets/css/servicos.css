@@ -1,16 +1,18 @@
+@import url(./servicos-swiper.css);
+
 .servicos {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
-    padding: 0 1rem;
+    /* padding: 0 1rem; */
     background-color: var(--cor-principal);
 }
 
 .servicos__titulo {
     height: 2vh;
-    padding: 1rem 0;
+    /* padding: 1rem 0; */
 }
 
 .servicos__titulo_nome {
@@ -18,7 +20,7 @@
     font-size: 2rem;
     color: white;
 }
-
+/* 
 .servicos__box {
     height: 85vh;
     display: flex;   
@@ -82,4 +84,4 @@
 
 .servicos__container:hover {
     transform: scale(1.05);
-}
+} */
